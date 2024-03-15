@@ -429,7 +429,7 @@ class Net(nn.Module):
         # self.load_state_dict(torch.load(path,map_location=torch.device('cpu')))
 
 class SA_Attn_Mem(nn.Module):
-    # SAM 自注意力模块
+    # SAM 
     def __init__(self, input_dim, hidden_dim):
         super().__init__()
         self.hidden_dim = hidden_dim
